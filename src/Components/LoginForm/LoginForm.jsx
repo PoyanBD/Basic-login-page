@@ -17,7 +17,7 @@ const LoginForm = () => {
         </div>
         <div className="remember-forgot">
           <label><input type="checkbox" />Remember me</label>
-          <a href="#">Forgot password?</a>
+          <a href="#" onClick={(e) => e.preventDefault()}>Forgot password?</a>
         </div>
         <button type="submit">Login</button>
       </form>
